@@ -4,6 +4,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -15,4 +22,23 @@ header {
     background-color: chocolate;
     /* padding: 20px 100px */
 }
+
+h2.logo {
+
+}
+
+main {
+    background-color: aqua;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
